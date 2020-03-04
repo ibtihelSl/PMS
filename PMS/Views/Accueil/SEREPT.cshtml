@@ -1,0 +1,227 @@
+﻿
+@{
+    ViewBag.Title = "CEREPT";
+    Layout = "~/Views/Shared/accueilFront.cshtml";
+}
+
+<link href="~/Content/Front/css/contact.css" rel='stylesheet' type='text/css' />
+
+
+<!--//header-->
+<div class="banner-inner">
+</div>
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Accueil")">Accueil</a>
+    </li>
+    <li class="breadcrumb-item active">SEREPT</li>
+</ol>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Présentation du champ Ashtart </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body video">
+                <iframe src="http://www.youtube.com/embed/l-sAi5yff6c?rel=1&amp;autoplay=1" width="500" height="344" frameborder="0" onpause=""></iframe>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                @*<button type="button" class="btn btn-primary">Save changes</button>*@
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<section class="grids_sec_2">
+    <div class="row style-grids_main">
+        <div class="col-md-6 grid_sec_info">
+            <div class="style-grid-2-text_info" data-aos="fade-right">
+                <h3>Société de Recherches et d'Exploitation des Pétroles en Tunisie</h3>
+                <p>SEREPT a été constitué le 29 décembre 1931 à Paris, Au début c’était le Syndicat 
+                d’Etudes et Recherches Pétrolières en Tunisie qui avait pour acronyme SEREPT (S.E.R.E.P.T.)</p>
+                <p>SEREPT est une société anonyme, c'est actionnaires sont :</p>
+                <p>L'ETAP de 50% et PERENCO Tunisia Oil & Gas Limited PERENCO de 50% .</p>
+               
+
+                <div class="bnr-button">
+                    <button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
+                        <i class="fas fa-play"></i>
+                    </button>
+               
+                    <img src="~/Content/Front/images/logoserept.png" alt=" " class="img-fluid" width="150" height="150" align="right"/>
+
+                </div>
+
+                @*<div  class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Introduction Video</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body video">
+                                <iframe src="https://player.vimeo.com/video/13618190" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>*@
+
+            </div>
+        </div>
+        <div class="col-md-6 style-image-SEREPT1">
+        </div>
+        <div class="col-md-6 style-image-SEREPT2">
+        </div>
+        <div class="col-md-6 grid_sec_info">
+            <div class="style-grid-2-text_info" data-aos="fade-right">
+                <h3>
+                   Les sites de SEREPT :
+
+                </h3>
+                
+                    <p><span class="fas fa-check"></span>&nbsp &nbsp Tunis</p>
+                    <p><span class="fas fa-check"></span>&nbsp &nbsp Sfax</p>
+                    <p><span class="fas fa-check"></span>&nbsp &nbsp Habanna</p>
+                    <p><span class="fas fa-check"></span>&nbsp &nbsp Ashtart</p>
+
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<h4 class="tittle">Emplacement des sites de SEREPT :</h4>
+<div class="row inner-sec-wthree">
+    <div class="contact-map">
+
+
+
+        <fieldset>
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+            <div id="map" style="width:100%;height:500px"></div>
+            <script>
+
+                function myMap() {
+                    var Sfax = new google.maps.LatLng(34.7615799, 10.7607223);
+                    var Habanna = new google.maps.LatLng(34.232656, 11.020838);
+                    var Tunis = new google.maps.LatLng(36.8369928, 10.1559025   );
+                    var Ashtart = new google.maps.LatLng(34.3683697, 10.762482);
+                   
+
+
+                    var mapCanvas = document.getElementById("map");
+                    var mapOptions = { center: Sfax, zoom: 7 };
+                    var map = new google.maps.Map(mapCanvas, mapOptions);
+
+                    var flightPath = new google.maps.Polyline({
+                        path: [Tunis, Sfax, Ashtart, Habanna],
+                        strokeColor: "Yellow",
+                        strokeOpacity: 0.8,
+                        strokeWeight: 2,
+                        fillColor: "Yellow",
+                        fillOpacity: 0.4
+                    });
+
+                    var marker1 = new google.maps.Marker({
+                        position: Sfax,
+                       // animation: google.maps.Animation.BOUNCE,
+                        //BOUNCE ,DROP , lo , no
+                        
+                    });
+                    var marker2 = new google.maps.Marker({
+                        position: Habanna,
+                     //   animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+                    var marker3 = new google.maps.Marker({
+                        position: Tunis,
+                     //   animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+                    var marker4 = new google.maps.Marker({
+                        position: Ashtart,
+                     //   animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+                  
+
+                    //indication de la position Sfax, Haband, Tunis, Ashtart
+                    var infowindow1 = new google.maps.InfoWindow({
+                        content: "Sfax"
+                    });
+                    var infowindow2 = new google.maps.InfoWindow({
+                        content: "Habanna"
+                    });
+                    var infowindow3 = new google.maps.InfoWindow({
+                        content: "Tunis"
+                    });
+                    var infowindow4 = new google.maps.InfoWindow({
+                        content: "Ashtart"
+                    });
+                   //open
+                    google.maps.event.addListener(marker1, 'mouseover', function () {
+                        infowindow1.open(map, marker1);
+                    });
+                    google.maps.event.addListener(marker2, 'mouseover', function () {
+                        infowindow2.open(map, marker2);
+                    });
+                    google.maps.event.addListener(marker3, 'mouseover', function () {
+                        infowindow3.open(map, marker3);
+                    });
+                    google.maps.event.addListener(marker4, 'mouseover', function () {
+                        infowindow4.open(map, marker4);
+                    });
+                  //close
+                    google.maps.event.addListener(marker1, 'mouseout', function () {
+                        infowindow1.close(map, marker1);
+                    });
+                    google.maps.event.addListener(marker2, 'mouseout', function () {
+                        infowindow2.close(map, marker2);
+                    });
+                    google.maps.event.addListener(marker3, 'mouseout', function () {
+                        infowindow3.close(map, marker3);
+                    });
+                    google.maps.event.addListener(marker4, 'mouseout', function () {
+                        infowindow4.close(map, marker4);
+                    });
+                    
+
+
+                  //  flightPath.setMap(map);
+                    marker1.setMap(map);
+                    marker2.setMap(map);
+                    marker3.setMap(map);
+                    marker4.setMap(map);
+                   
+                }
+            </script>
+
+            @*<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvHb9kp9zK7OdVQZEmzhHwyIiT7xwHL74&callback=myMap"></script>*@
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvHb9kp9zK7OdVQZEmzhHwyIiT7xwHL74&signed_in=true&libraries=places&callback=myMap">
+
+            </script>
+        </fieldset>
+
+    </div>
+</div>

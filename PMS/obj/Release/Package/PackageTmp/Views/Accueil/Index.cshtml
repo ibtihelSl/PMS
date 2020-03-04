@@ -1,0 +1,636 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/accueilFront.cshtml";
+}
+
+<!--//header-->
+<!--/banner-->
+
+<div class="banner">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            @*<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>*@
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="carousel-caption">
+                    @*<h3>Votre bien être, c'est notre fierté</h3>*@
+
+                    @*<div class="bnr-button">
+                            <button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>*@
+
+                </div>
+            </div>
+            <div class="carousel-item item2">
+                <div class="carousel-caption">
+                    @*<h3>Notre devise est la satisfaction des clients</h3>*@
+
+
+                </div>
+            </div>
+            @*
+                    <div class="carousel-item item3">
+                    <div class="carousel-caption">
+                        <h3>Turning big ideas into great products </h3>
+
+                    </div>
+                </div>
+            *@
+            <div class="carousel-item item4">
+                <div class="carousel-caption">
+                    @*<h3>Notre devise est la satisfaction des clients</h3>*@
+                    @*<h3>La prestation, c'est notre travail</h3>*@
+
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<!--/model-->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Introduction Video</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body video">
+                <iframe src="https://player.vimeo.com/video/13618190" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                @*<button type="button" class="btn btn-primary">Save changes</button>*@
+            </div>
+        </div>
+    </div>
+</div>
+<!--//model-->
+<!--//banner-->
+
+
+
+<section class="banner-bottom">
+    <div class="container">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row inner-sec-wthree">
+
+            <div class="col-lg-5 bt-bottom-info" data-aos="fade-right">
+                <div style="text-align:center" >
+                    @*<h5>
+                        Bienvenue au site web <br />
+
+                        de PMS
+                        Votre bien être, c'est notre fierté
+                    </h5>*@
+                    <img src="~/Content/Front/images/aa2.png" width="180" height="160" alt="" />
+                    </div> 
+            </div>
+            <div class="col-lg-7 bt-bottom-info" data-aos="fade-left">
+                
+                <br/>
+                <p>Dénomination :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPremium Multi Services</p>
+                <p>Année de création :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2012</p>
+                <p>Statut juridique :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSociété Anonyme</p>
+                <p>
+                    Secteur d'activité :&nbsp&nbsp&nbsp&nbsp&nbsp&nbspServices 
+                </p>
+                
+                @*<p> PMS est une société de service, fournie des prestations de différents services qui sont 
+                de nature à favoriser le but poursuivi par la société et son développement. </p>
+                <p>PMS travaille pour le compte des sociétés du secteur de la pétrochimie (SERGAZ, SEREPT, CTKCP)</p>*@
+
+                <br />
+                <br />
+            </div>
+        </div>
+        <div class="row inner-sec-wthree">
+
+            <div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+                <div class="bt-icon-EM">
+                    <span class="fas fa-cogs"></span>
+                </div>
+
+                <h4 class="sub-tittle">Entretien et maintenance</h4>
+                <p> Travaux d'entretien des blocs sanitaires des stations et des logements, nettoyage des panneaux solaires installés...</p>
+                <p>
+                    <a class="btn btn-secondary view" href="@Url.Action("Service_EM","Accueil")" role="button">Details</a>
+                </p>
+            </div>
+            <!-- /.col-lg-4 -->
+
+            <div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+                <div class="bt-icon">
+
+                    <span class="fas fa-utensils"></span>
+                </div>
+
+                <h4 class="sub-tittle">Restauration</h4>
+                <p>
+                    PMS offre un service de restauration  au sein de l'établissement
+                    du client selon la charte qualité...
+                </p>
+                <p>
+                    <a class="btn btn-secondary view" href="@Url.Action("Service_Restauration","Accueil")" role="button">Details</a>
+                </p>
+            </div>
+            <!-- /.col-lg-4 -->
+
+            <div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+                <div class="bt-icon-hebergement">
+                   
+                    <span class="far fa-building"></span>
+                </div>
+
+                <h4 class="sub-tittle">Hébergement</h4>
+                <p>Gestion des chambres, Gestion des buanderies, Gestion <br />des bars ... <br /></p>
+                <p>
+                    <a class="btn btn-secondary view" href="@Url.Action("Service_Hebergement","Accueil")">Details</a>
+                   
+                </p>
+            </div>
+            <!-- /.col-lg-4 -->
+           
+
+         
+           
+        </div>
+
+        <div class="row inner-sec-wthree">
+            <div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+                <div class="bt-icon-HSE">
+                    @*<i class="far fa-shield-check"></i>*@
+                    <span class="fas fa-shield-alt"></span>
+
+                </div>
+
+                <h4 class="sub-tittle">HSE</h4>
+                <p>Gestion des aspects HSE dans le processus d'approvisionnement, gestion des urgances et de l'évacuation ...</p>
+                <p>
+                    <a class="btn btn-secondary view" href="@Url.Action("Service_HSE","Accueil")">Details</a>
+                </p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+                <div class="bt-icon-jardinage">
+                    <span class="fab fa-envira"></span>
+
+                  
+                </div>
+               
+                <h4 class="sub-tittle">Jardinage</h4>
+                <p> Le service Jardinage comporte la création, l'aménagement et l'entretien des jardins et des espaces verts...</p>
+                <p>
+                    <a class="btn btn-secondary view" href="@Url.Action("Service_Jardinage","Accueil")" role="button">Details</a>
+                </p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+                <div class="bt-icon-navette">
+                    <span class="fas fa-truck"></span>
+                  
+                    
+                </div>
+
+                <h4 class="sub-tittle">Navette</h4>
+                <p>PMS offre un service Navette qui consistent aux transport hebdomadaires <br /> de courriers...</p>
+                <p>
+                    <a class="btn btn-secondary view" href="@Url.Action("Service_Navette","Accueil")" role="button">Details</a>
+                </p>
+            </div>
+            
+            <!-- /.col-lg-4 -->
+        </div>
+
+        <div class="row inner-sec-wthree">
+            <div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+                <div class="bt-icon-peinture">
+                    @*<i class="far fa-shield-check"></i>*@
+                    @*<span class="fas fa-paint-brush"></span><i class="fas fa-fire-extinguisher"></i>*@
+                    <span class="fas fa-fire-extinguisher"></span>
+
+                </div>
+
+                <h4 class="sub-tittle">Peinture industrielle</h4>
+                <p> Ce service consiste à appliquer des couches de revêtement ou de protection sur des pièces...</p>
+                <p>
+                    <a class="btn btn-secondary view" href="@Url.Action("Service_Peinture_industrielle","Accueil")">Details</a>
+                </p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+                <div class="bt-icon-deratisation">
+                    @*<span class="fab fa-envira"></span>*@
+                    <a>
+                        <img src="~/Content/Front/images/rat.png" alt="" class="img-fluid1" />
+                    </a>
+                </div>
+
+                <h4 class="sub-tittle">Dératisation</h4>
+                <p> PMS offre le service de dératisation pour faire face au problème de l’invasion par les nuisibles...</p>
+                <p>
+                    <a class="btn btn-secondary view" href="@Url.Action("Service_Dératisation","Accueil")" role="button">Details</a>
+                </p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 bottom-sub-grid text-center aos-init aos-animate" data-aos="zoom-in">
+                <div class="bt-icon-buvette">
+                    <span class="fas fa-coffee"></span>
+
+
+                </div>
+
+                <h4 class="sub-tittle">Buvette</h4>
+                <p>PMS offre un service buvette qui doit proposer une offre de produits comprenant principalement des cafés...</p>
+                <p>
+                    <a class="btn btn-secondary view" href="@Url.Action("Service_Buvette","Accueil")" role="button">Details</a>
+                </p>
+            </div>
+
+            <!-- /.col-lg-4 -->
+        </div>
+        <br /> <br />
+
+    </div>
+    <!-- /.row -->
+</section>
+<!---->
+<!-- /stats -->
+<section class="stats_test container-fluid">
+
+    <div class="row inner_stat">
+        <div class="col-lg-6 stats-left-info">
+            <div class="row">
+                <div class="col-md-6 stats_left counter_grid">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p class="counter">11</p>
+                    <h4>Sites géographiques</h4>
+                </div>
+                <div class="col-md-6 stats_left counter_grid1">
+                    <i class="fas fa-users"></i>
+                    <p class="counter">345</p>
+                    <h4>Employés</h4>
+                </div>
+                <div class="col-md-6 stats_left counter_grid2">
+                    <i class="far fa-edit"></i>
+                    <p class="counter">9</p>
+                    <h4>Services</h4>
+                </div>
+                <div class="col-md-6 stats_left counter_grid3">
+                    <i class="far fa-smile"></i>
+                    <p class="counter">3</p>
+                    <h4>Clients</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 stats-right-img">
+            <img src="~/Content/Front/images/EmpPMS2.jpg" alt=" " />
+        </div>
+    </div>
+</section>
+<!-- //stats -->
+<!--/services-->
+
+<!--//services-->
+<!---->
+@*
+<section class="grids_sec_2">
+    <div class="row style-grids_main">
+       
+        <div >
+            <img src="~/Content/Front/images/pmspms3.jpg" alt=" " />
+        </div>
+        <div class="col-md-6 grid_sec_info">
+            <div class="style-grid-2-text_info" data-aos="fade-right">
+                <h3>
+                    Premium multi Services
+                   
+                </h3>
+                @*<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi tempora incidunt ut labore .Lorem ipsum dolor sit amet,vehicula vel sapien et</p>*@
+@*
+                <div class="bnr-button">
+                    <button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+*@
+
+<!--/Partenaires-->
+<section class="services">
+    <div class="container">
+        <br /><br /><br /><br /><br />
+        <h3 class="tittle">
+            Nos Partenaires
+        </h3>
+        <div class="row inner-sec-wthree">
+
+            <div class="col-md-4 proj_gallery_griid" data-aos="zoom-in">
+                @*SERGAZ*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+
+                    <div>
+                        <img src="~/Content/Front/images/logoSergaz.jpg" alt=" " />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>SERGAZ</h3>*@
+                            <p>Société de Service du Gazoduc Transtunisien</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                @*NAR*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+                    <div>
+                        <img src="~/Content/Front/images/NAR.jpeg" alt=" " />
+                        <div class="proj_gallery_grid1_pos">
+                            <h3>NAR Système se Sécurité</h3>
+                            <p>Equipements de Protection Individuel</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+              
+
+                @*Globalnet*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+
+                    <div>
+                        <img src="~/Content/Front/images/gnet.png" alt=" " class="img-fluid" />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>Globalnet</h3>*@
+                            <p>Fournisseur de Service Internet</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                @*BEH*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+                    
+                        <div >
+                            <img src="~/Content/Front/images/BEH.png" alt=" " class="img-fluid" />
+                            <div class="proj_gallery_grid1_pos">
+                                <h3>Biens d'Equipements Hôteliers</h3>
+                                <p>Equipements Hôteliers</p>
+                            </div>
+                            
+                        </div>
+                  
+                </div>
+               
+                @*INTERIEURS MEUBLES*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+                    <div>
+                        <img src="~/Content/Front/images/InterieursMeubles.png" alt=" " class="img-fluid" />
+                        <div class="proj_gallery_grid1_pos">
+                            <h3>Interieurs Meubles</h3>
+                            <p>Meuble de bureau</p>
+                        </div>
+                    </div>
+                </div>
+
+                @*MyTek*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+
+                    <div>
+                        <img src="~/Content/Front/images/mytek.jpg" alt=" " class="img-fluid" />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>MyTek</h3>*@
+                            <p>Materiel Informatique</p>
+                        </div>
+                    </div>
+
+                </div>
+
+               
+
+            </div>
+
+            <div class="col-md-4 proj_gallery_griid" data-aos="zoom-in">
+             
+             
+              
+
+                @*CTKCP*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+
+                    <div>
+                        <img src="~/Content/Front/images/logoCTKCP.jpeg" alt=" " />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>CTKCP</h3>*@
+                            <p>Compagnie Tuniso‐Koweitochinoise de Petrole</p>
+                        </div>
+                    </div>
+
+                </div>
+
+             
+               
+                  
+                @*Magasin Générale*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+
+                    <div>
+                        <img src="~/Content/Front/images/MG.png" alt=" " />
+                        <div class="proj_gallery_grid1_pos">
+                            <h3>Magasin Générale</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                @*CIMEF*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+
+                    <div>
+                        <img src="~/Content/Front/images/cimef.png" alt=" " class="img-fluid" />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>CIMEF</h3>*@
+                            <p>Materiel Informatique</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                @*TRE*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+                    <div>
+                        <img src="~/Content/Front/images/TRE.png" alt=" " class="img-fluid" />
+                        <div class="proj_gallery_grid1_pos">
+                            <h3>Tunisie Représentation Équipement</h3>
+                            <p>Equipements Hôteliers</p>
+                        </div>
+                    </div>
+                </div>
+             
+                @*BonnaBeton*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+                    <div>
+                        <img src="~/Content/Front/images/bonnabeton.jpg" alt=" " class="img-fluid" />
+                        <div class="proj_gallery_grid1_pos">
+                            <h3>Bonna Beton</h3>
+                            <p> Béton préfabriqué</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+                @*GPPS*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+                    <div>
+                        <img src="~/Content/Front/images/GPPS.jpg" alt=" " class="img-fluid" />
+                        <div class="proj_gallery_grid1_pos">
+                            <h3>Général Prévention Protection et Sécurité</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                @*orange*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+
+                    <div>
+                        <img src="~/Content/Front/images/Orange-logo.png" alt=" " />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>orange</h3>*@
+                            <p>Operateur mobile</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 proj_gallery_griid" data-aos="zoom-in">
+              
+                @*SEREPT*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+
+                    <div>
+                        <img src="~/Content/Front/images/logoserept.jpg" alt=" " />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>SEREPT</h3>*@
+                            <p>Société de Recherche et d'Exploitation des Pétroles</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                @*Tunisie Telecom*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+                    <div>
+                        <img src="~/Content/Front/images/logoTT.png" alt=" " />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>Tunisie Telecom</h3>*@
+                            <p>Operateur mobile</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+                @*ZaytounaTakaful*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+
+                    <div>
+                        <img src="~/Content/Front/images/takaful.jpg" alt=" " class="img-fluid" />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>Zaytouna Takaful</h3>*@
+                            <p>Assurance</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+                @*STECOM*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+                  
+                        <div >
+                            <img src="~/Content/Front/images/STECOM.png" alt=" " class="img-fluid" />
+                            <div class="proj_gallery_grid1_pos">
+                                @*<h3>La Société Tunisienne d'Equipement Collectif et Ménager</h3>*@
+                                <p>Equipements Hôteliers</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+              
+
+                @*Carte Assurance*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+                    <div>
+                        <img src="~/Content/Front/images/CarteAssu1.PNG" alt=" " />
+                        <div class="proj_gallery_grid1_pos">
+                            <h3>Carte Assurance</h3>
+                            <p>Assurance</p>
+                        </div>
+
+                    </div>
+                    <br />
+                </div>
+
+                @*Allani Textile*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+
+                    <div>
+                        <img src="~/Content/Front/images/AllaniTaxtile.png" alt=" " />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>Allani Textile</h3>*@
+                            <p>Vettement De Travail</p>
+                        </div>
+                    </div>
+                    <br /><br /><br />
+                </div>
+               
+                @*Tunisianet*@
+                <div class="section_1_gallery_grid" data-aos="zoom-in">
+                    <div>
+                        <img src="~/Content/Front/images/tunisianet.png" alt=" " class="img-fluid" />
+                        <div class="proj_gallery_grid1_pos">
+                            @*<h3>Tunisianet</h3>*@
+                            <p>Materiel Informatique</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+<!--//Partenaires-->
+<!--reviews_sec-->
+
+<!---->

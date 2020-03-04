@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Hebergement";
+    Layout = "~/Views/Shared/accueilFront.cshtml";
+}
+
+<!--//header-->
+<div class="banner-inner">
+</div>
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Accueil")">Accueil</a>
+    </li>
+    <li class="breadcrumb-item active">@*Service Hébergement*@</li>
+</ol>
+
+
+<section class="grids_sec_2">
+    <div class="row style-grids_main">
+
+        <div class="col-md-6 grid_sec_info">
+            <div class="style-grid-2-text_info" data-aos="fade-right">
+
+
+              
+                <p> Le service hébergement comporte :</p>
+
+                <p>&nbsp &nbsp &nbsp &nbsp<span class="fas fa-check"></span>Gestion des chambres  
+                </p>
+                <p>&nbsp &nbsp &nbsp &nbsp<span class="fas fa-check"></span>Gestion des buanderies</p>
+                @*<p>&nbsp &nbsp &nbsp &nbsp<span class="fas fa-check"></span>Gestion des bars</p>*@
+                <p>&nbsp &nbsp &nbsp &nbsp<span class="fas fa-check"></span>Gestion des contoires</p>
+
+            </div>
+
+        </div>
+        <div class="col-md-6 style-image-hebergement"></div>
+
+
+
+    </div>
+</section>

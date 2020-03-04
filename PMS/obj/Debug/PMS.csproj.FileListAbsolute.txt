@@ -1,0 +1,328 @@
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\ApplicationInsights.config
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\csc.exe
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\System.Collections.Immutable.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\vbc.exe
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\VBCSCompiler.exe
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\roslyn\VBCSCompiler.exe.config
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\PMS.dll.config
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\PMS.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\PMS.pdb
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Antlr3.Runtime.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\EntityFramework.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\EntityFramework.SqlServer.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AI.Web.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AI.WindowsServer.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.ApplicationInsights.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.Google.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Web.Infrastructure.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Newtonsoft.Json.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Owin.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.Helpers.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.Mvc.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.Optimization.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.Razor.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.WebPages.Deployment.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.WebPages.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.WebPages.Razor.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\WebGrease.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AI.Web.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AI.WindowsServer.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.ApplicationInsights.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.Helpers.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.Mvc.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.Optimization.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.Razor.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.WebPages.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.WebPages.Deployment.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\System.Web.WebPages.Razor.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Antlr3.Runtime.pdb
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Newtonsoft.Json.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\EntityFramework.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\EntityFramework.SqlServer.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.Google.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\obj\Debug\PMS.csprojResolveAssemblyReference.cache
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\obj\Debug\PMS.dll
+c:\users\chaie\documents\visual studio 2015\Projects\PMS\PMS\obj\Debug\PMS.pdb
+E:\PMS\PMS\PMS\bin\ApplicationInsights.config
+E:\PMS\PMS\PMS\bin\roslyn\csc.exe
+E:\PMS\PMS\PMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PMS\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PMS\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PMS\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PMS\PMS\PMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PMS\PMS\PMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PMS\PMS\PMS\bin\roslyn\System.Collections.Immutable.dll
+E:\PMS\PMS\PMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\PMS\PMS\PMS\bin\roslyn\vbc.exe
+E:\PMS\PMS\PMS\bin\roslyn\VBCSCompiler.exe
+E:\PMS\PMS\PMS\bin\roslyn\VBCSCompiler.exe.config
+E:\PMS\PMS\PMS\bin\PMS.dll.config
+E:\PMS\PMS\PMS\bin\PMS.dll
+E:\PMS\PMS\PMS\bin\PMS.pdb
+E:\PMS\PMS\PMS\bin\Antlr3.Runtime.dll
+E:\PMS\PMS\PMS\bin\EntityFramework.dll
+E:\PMS\PMS\PMS\bin\EntityFramework.SqlServer.dll
+E:\PMS\PMS\PMS\bin\Microsoft.AI.Agent.Intercept.dll
+E:\PMS\PMS\PMS\bin\Microsoft.AI.DependencyCollector.dll
+E:\PMS\PMS\PMS\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\PMS\PMS\PMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\PMS\PMS\PMS\bin\Microsoft.AI.Web.dll
+E:\PMS\PMS\PMS\bin\Microsoft.AI.WindowsServer.dll
+E:\PMS\PMS\PMS\bin\Microsoft.ApplicationInsights.dll
+E:\PMS\PMS\PMS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\PMS\PMS\PMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\PMS\PMS\PMS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\PMS\PMS\PMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.dll
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.dll
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.Google.dll
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\PMS\PMS\PMS\bin\Microsoft.Web.Infrastructure.dll
+E:\PMS\PMS\PMS\bin\Newtonsoft.Json.dll
+E:\PMS\PMS\PMS\bin\Owin.dll
+E:\PMS\PMS\PMS\bin\System.Web.Helpers.dll
+E:\PMS\PMS\PMS\bin\System.Web.Mvc.dll
+E:\PMS\PMS\PMS\bin\System.Web.Optimization.dll
+E:\PMS\PMS\PMS\bin\System.Web.Razor.dll
+E:\PMS\PMS\PMS\bin\System.Web.WebPages.Deployment.dll
+E:\PMS\PMS\PMS\bin\System.Web.WebPages.dll
+E:\PMS\PMS\PMS\bin\System.Web.WebPages.Razor.dll
+E:\PMS\PMS\PMS\bin\WebGrease.dll
+E:\PMS\PMS\PMS\bin\Microsoft.AI.DependencyCollector.xml
+E:\PMS\PMS\PMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\PMS\PMS\PMS\bin\Microsoft.AI.Web.xml
+E:\PMS\PMS\PMS\bin\Microsoft.AI.WindowsServer.xml
+E:\PMS\PMS\PMS\bin\Microsoft.ApplicationInsights.xml
+E:\PMS\PMS\PMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PMS\PMS\PMS\bin\System.Web.Helpers.xml
+E:\PMS\PMS\PMS\bin\System.Web.Mvc.xml
+E:\PMS\PMS\PMS\bin\System.Web.Optimization.xml
+E:\PMS\PMS\PMS\bin\System.Web.Razor.xml
+E:\PMS\PMS\PMS\bin\System.Web.WebPages.xml
+E:\PMS\PMS\PMS\bin\System.Web.WebPages.Deployment.xml
+E:\PMS\PMS\PMS\bin\System.Web.WebPages.Razor.xml
+E:\PMS\PMS\PMS\bin\Antlr3.Runtime.pdb
+E:\PMS\PMS\PMS\bin\Newtonsoft.Json.xml
+E:\PMS\PMS\PMS\bin\EntityFramework.xml
+E:\PMS\PMS\PMS\bin\EntityFramework.SqlServer.xml
+E:\PMS\PMS\PMS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\PMS\PMS\PMS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\PMS\PMS\PMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.xml
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.xml
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.Google.xml
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\PMS\PMS\PMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\PMS\PMS\PMS\obj\Debug\PMS.csprojResolveAssemblyReference.cache
+E:\PMS\PMS\PMS\obj\Debug\PMS.dll
+E:\PMS\PMS\PMS\obj\Debug\PMS.pdb
+I:\PMS\PMS\bin\ApplicationInsights.config
+I:\PMS\PMS\bin\roslyn\csc.exe
+I:\PMS\PMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\PMS\PMS\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\PMS\PMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\PMS\PMS\bin\roslyn\System.Collections.Immutable.dll
+I:\PMS\PMS\bin\roslyn\System.Reflection.Metadata.dll
+I:\PMS\PMS\bin\roslyn\vbc.exe
+I:\PMS\PMS\bin\roslyn\VBCSCompiler.exe
+I:\PMS\PMS\bin\roslyn\VBCSCompiler.exe.config
+I:\PMS\PMS\bin\PMS.dll.config
+I:\PMS\PMS\bin\PMS.dll
+I:\PMS\PMS\bin\PMS.pdb
+I:\PMS\PMS\bin\Antlr3.Runtime.dll
+I:\PMS\PMS\bin\EntityFramework.dll
+I:\PMS\PMS\bin\EntityFramework.SqlServer.dll
+I:\PMS\PMS\bin\Microsoft.AI.Agent.Intercept.dll
+I:\PMS\PMS\bin\Microsoft.AI.DependencyCollector.dll
+I:\PMS\PMS\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\PMS\PMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\PMS\PMS\bin\Microsoft.AI.Web.dll
+I:\PMS\PMS\bin\Microsoft.AI.WindowsServer.dll
+I:\PMS\PMS\bin\Microsoft.ApplicationInsights.dll
+I:\PMS\PMS\bin\Microsoft.AspNet.Identity.Core.dll
+I:\PMS\PMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\PMS\PMS\bin\Microsoft.AspNet.Identity.Owin.dll
+I:\PMS\PMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\PMS\PMS\bin\Microsoft.Owin.dll
+I:\PMS\PMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+I:\PMS\PMS\bin\Microsoft.Owin.Security.Cookies.dll
+I:\PMS\PMS\bin\Microsoft.Owin.Security.dll
+I:\PMS\PMS\bin\Microsoft.Owin.Security.Facebook.dll
+I:\PMS\PMS\bin\Microsoft.Owin.Security.Google.dll
+I:\PMS\PMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+I:\PMS\PMS\bin\Microsoft.Owin.Security.OAuth.dll
+I:\PMS\PMS\bin\Microsoft.Owin.Security.Twitter.dll
+I:\PMS\PMS\bin\Microsoft.Web.Infrastructure.dll
+I:\PMS\PMS\bin\Newtonsoft.Json.dll
+I:\PMS\PMS\bin\Owin.dll
+I:\PMS\PMS\bin\System.Web.Helpers.dll
+I:\PMS\PMS\bin\System.Web.Mvc.dll
+I:\PMS\PMS\bin\System.Web.Optimization.dll
+I:\PMS\PMS\bin\System.Web.Razor.dll
+I:\PMS\PMS\bin\System.Web.WebPages.Deployment.dll
+I:\PMS\PMS\bin\System.Web.WebPages.dll
+I:\PMS\PMS\bin\System.Web.WebPages.Razor.dll
+I:\PMS\PMS\bin\WebGrease.dll
+I:\PMS\PMS\bin\Microsoft.AI.DependencyCollector.xml
+I:\PMS\PMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\PMS\PMS\bin\Microsoft.AI.Web.xml
+I:\PMS\PMS\bin\Microsoft.AI.WindowsServer.xml
+I:\PMS\PMS\bin\Microsoft.ApplicationInsights.xml
+I:\PMS\PMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\PMS\PMS\bin\System.Web.Helpers.xml
+I:\PMS\PMS\bin\System.Web.Mvc.xml
+I:\PMS\PMS\bin\System.Web.Optimization.xml
+I:\PMS\PMS\bin\System.Web.Razor.xml
+I:\PMS\PMS\bin\System.Web.WebPages.xml
+I:\PMS\PMS\bin\System.Web.WebPages.Deployment.xml
+I:\PMS\PMS\bin\System.Web.WebPages.Razor.xml
+I:\PMS\PMS\bin\Antlr3.Runtime.pdb
+I:\PMS\PMS\bin\Newtonsoft.Json.xml
+I:\PMS\PMS\bin\EntityFramework.xml
+I:\PMS\PMS\bin\EntityFramework.SqlServer.xml
+I:\PMS\PMS\bin\Microsoft.AspNet.Identity.Core.xml
+I:\PMS\PMS\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\PMS\PMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\PMS\PMS\bin\Microsoft.Owin.xml
+I:\PMS\PMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\PMS\PMS\bin\Microsoft.Owin.Security.xml
+I:\PMS\PMS\bin\Microsoft.Owin.Security.Facebook.xml
+I:\PMS\PMS\bin\Microsoft.Owin.Security.Cookies.xml
+I:\PMS\PMS\bin\Microsoft.Owin.Security.OAuth.xml
+I:\PMS\PMS\bin\Microsoft.Owin.Security.Google.xml
+I:\PMS\PMS\bin\Microsoft.Owin.Security.Twitter.xml
+I:\PMS\PMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+I:\PMS\PMS\obj\Debug\PMS.csprojResolveAssemblyReference.cache
+I:\PMS\PMS\obj\Debug\PMS.dll
+I:\PMS\PMS\obj\Debug\PMS.pdb
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\ApplicationInsights.config
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\csc.exe
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\vbc.exe
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\PMS.dll.config
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\PMS.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\PMS.pdb
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Antlr3.Runtime.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\EntityFramework.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\EntityFramework.SqlServer.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AI.Web.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Newtonsoft.Json.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Owin.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.Helpers.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.Mvc.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.Optimization.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.Razor.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.WebPages.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\WebGrease.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AI.Web.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.Helpers.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.Mvc.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.Optimization.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.Razor.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.WebPages.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Antlr3.Runtime.pdb
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Newtonsoft.Json.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\EntityFramework.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\EntityFramework.SqlServer.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\obj\Debug\PMS.csprojResolveAssemblyReference.cache
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\obj\Debug\PMS.dll
+C:\Users\chaie\Documents\5emeGL\PMS\PMS\obj\Debug\PMS.pdb

@@ -1,0 +1,150 @@
+﻿
+@{
+    ViewBag.Title = "CTKCP";
+    Layout = "~/Views/Shared/accueilFront.cshtml";
+}
+
+<link href="~/Content/Front/css/contact.css" rel='stylesheet' type='text/css' />
+
+<!--//header-->
+<div class="banner-inner">
+</div>
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Accueil")">Accueil</a>
+    </li>
+    <li class="breadcrumb-item active">CTKCP</li>
+</ol>
+
+
+<section class="grids_sec_2">
+    <div class="row style-grids_main">
+        <div class="col-md-6 grid_sec_info">
+            <div class="style-grid-2-text_info" data-aos="fade-right">
+                <h3> Compagnie Tuniso‐Koweitochinoise de Petrole</h3>
+                <p>Une coentreprise pétrolière et gazière entre la Tunisie NOC ETAP / Koweitian KUFPEC / 
+                Chinese CNPCI.</p>
+                <p>CTKCP est une société anonyme, Agissant en qualité d'opérateur sur la concession Sidi El Kilani.</p>
+
+               
+                 @*<div class="bnr-button">
+                    <button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>*@
+
+            </div>
+        </div>
+        <div class="col-md-6 style-image-CTKCP">
+        </div>
+        <div class="col-md-6 style-image-CTKCP1">
+        </div>
+        <div class="col-md-6 grid_sec_info">
+            <div class="style-grid-2-text_info" data-aos="fade-right">
+                <h3>
+                    Les sites de CTKCP :
+
+                </h3>
+
+                <p><span class="fas fa-check"></span>&nbsp &nbsp Essouassi</p>
+                <p><span class="fas fa-check"></span>&nbsp &nbsp Manzel chaker</p>
+              
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<h4 class="tittle">Emplacement des Sites de CTKCP</h4>
+<div class="row inner-sec-wthree">
+    <div class="contact-map">
+
+
+
+        <fieldset>
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+            <div id="map" style="width:100%;height:500px"></div>
+            <script>
+
+                function myMap() {
+                    var Essouassi = new google.maps.LatLng(35.2924147, 10.6399912);
+                    var Manzel_chaker = new google.maps.LatLng(34.954924, 10.356843);
+
+
+
+                    var mapCanvas = document.getElementById("map");
+                    var mapOptions = { center: Essouassi, zoom: 8 };
+                    var map = new google.maps.Map(mapCanvas, mapOptions);
+
+                    var flightPath = new google.maps.Polyline({
+                        path: [Essouassi, Manzel_chaker],
+                        strokeColor: "Yellow",
+                        strokeOpacity: 0.9,
+                        strokeWeight: 2,
+                        fillColor: "Yellow",
+                        fillOpacity: 0.4
+                    });
+
+                    var marker1 = new google.maps.Marker({
+                        position: Essouassi,
+                       // animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+                    var marker2 = new google.maps.Marker({
+                        position: Manzel_chaker,
+                        // animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+                    
+                  
+                    //indication de la position
+                    var infowindow1 = new google.maps.InfoWindow({
+                        content: "Essouassi"
+                    });
+                    var infowindow2 = new google.maps.InfoWindow({
+                        content: "Manzel chaker"
+                    });
+                    
+
+                    //open
+                    google.maps.event.addListener(marker1, 'mouseover', function () {
+                        infowindow1.open(map, marker1);
+                    });
+                    google.maps.event.addListener(marker2, 'mouseover', function () {
+                        infowindow2.open(map, marker2);
+                    });
+                   
+                    //close
+                    google.maps.event.addListener(marker1, 'mouseout', function () {
+                        infowindow1.close(map, marker1);
+                   
+                    });
+                    google.maps.event.addListener(marker2, 'mouseout', function () {
+                        infowindow2.close(map, marker2);
+
+                    });
+
+                    
+                   // flightPath.setMap(map);
+                    marker1.setMap(map);
+                    marker2.setMap(map);
+                   
+
+                }
+            </script>
+
+            @*<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvHb9kp9zK7OdVQZEmzhHwyIiT7xwHL74&callback=myMap"></script>*@
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvHb9kp9zK7OdVQZEmzhHwyIiT7xwHL74&signed_in=true&libraries=places&callback=myMap">
+
+            </script>
+        </fieldset>
+
+    </div>
+</div>

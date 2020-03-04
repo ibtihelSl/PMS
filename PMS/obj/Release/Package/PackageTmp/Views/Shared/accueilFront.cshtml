@@ -1,0 +1,392 @@
+﻿<!--
+    Author: W3layouts
+    Author URL: http://w3layouts.com
+    License: Creative Commons Attribution 3.0 Unported
+    License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+ @*#ff0000*@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Premium Multi Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Smelter a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <link href="~/Content/Front/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="~/Content/Front/css/flexslider.css" type="text/css" media="screen" property="" />
+    <link href="~/Content/Front/css/style.css" rel='stylesheet' type='text/css' />
+    <link href="~/Content/Front/css/simpleLightbox.css" rel='stylesheet' type='text/css' />
+    <link href="~/Content/Front/css/fontawesome-all.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header_top" id="home">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo text-left">
+                    <h1>
+                        <a class="navbar-brand" href="@Url.Action("Index","Accueil")">
+                            <img src="~/Content/Front/images/aa2.png" width="160" height="140" alt="" />
+
+
+                        </a>
+
+                    </h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+
+                    </span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-lg-auto text-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index","Accueil")">
+                                Accueil
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("A_propos","Accueil")" >À propos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Gallerie","Accueil")">Gallerie</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Clients
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="@Url.Action("SERGAZ","Accueil")">SERGAZ</a>
+                                <a class="dropdown-item" href="@Url.Action("CTKCP","Accueil")">CTKCP</a>
+                                <a class="dropdown-item" href="@Url.Action("SEREPT","Accueil")">SEREPT</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="@Url.Action("Service_Restauration","Accueil")">Restauration</a>
+                                <a class="dropdown-item" href="@Url.Action("Service_jardinage","Accueil")">jardinage</a>                              
+                                <a class="dropdown-item" href="@Url.Action("Service_EM","Accueil")">Entretien et maintenance</a>
+                                <a class="dropdown-item" href="@Url.Action("Service_HSE","Accueil")">HSE</a>
+                                <a class="dropdown-item" href="@Url.Action("Service_Hebergement","Accueil")">Hébergement</a>
+                                <a class="dropdown-item" href="@Url.Action("Service_Buvette", "Accueil")">Buvette</a> 
+                                <a class="dropdown-item" href="@Url.Action("Service_Peinture_industrielle","Accueil")">Peinture Industrielle</a>
+                                <a class="dropdown-item" href="@Url.Action("Service_Dératisation","Accueil")">Dératisation</a>
+                                <a class="dropdown-item" href="@Url.Action("Service_Navette","Accueil")">Navette</a>
+
+
+
+                            </div>
+                        </li>
+                        @*<li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("PremiumSurveillance","Accueil")">Premium Surveillance</a>
+                        </li>*@
+                        <li class="nav-item">
+                            <a class="nav-link"  href="@Url.Action("ContactPMS","Accueil")">Contact</a>
+                        </li>
+
+
+                    </ul>
+                                     
+                    <div class="form-inline my-2 my-lg-0 search">
+                        @*<a href="@Url.Action("Avis","Accueil")"><div class="btn btn-outline-success my-2 my-sm-0" type="submit">Avis</div></a>*@
+                        @*<input class="form-control mr-sm-1" type="search" placeholder="" name="Search" required="">*@
+                        <div class="nav-link tooltip-blog">
+                            <a class="btn btn-danger my-2 my-sm-0" role="button" href="@Url.Action("Avis","Accueil")">&nbsp Avis &nbsp</a><span>votre avis nous intéresse</span>
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                        </div>
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </div>
+    </header>
+   
+            @RenderBody()
+       
+    <!--footer-->
+
+    <footer>
+        <div class="container">
+            <div class="row footer-top-w3layouts">
+                <div class="col-lg-3 footer-grid-w3ls" data-aos="zoom-in">
+                    <div class="footer-title">
+                        <h2>A propos</h2>
+                    </div>
+                    <div class="footer-text">
+                        <p>Premium Multi Services est une société anonyme de droit tunisien créée en 2012, appartient au groupe Sergaz.<br />
+                 PMS est une société de service, fournie des prestations pour le compte des sociétés du secteur de l'énergie.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 footer-grid-w3ls" data-aos="zoom-in">
+                    <div class="footer-title">
+                        <h3>Contacts</h3>
+                    </div>
+                    <div class="footer-office-hour">
+                        <ul>
+                            <li class="hd">Addresse :</li>
+                            <li>Immeuble Tej, 1er Etage, Rue 18 janvier 1952, Ariana-2080</li>
+
+                        </ul>
+                        <ul>
+                            <li class="hd">Num Tel°:&nbsp&nbsp71 710 936
+                            <br />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp71 710 940<br />
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp71 710 990</li>
+
+                            <li class="hd">Fax : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp71 710 941</li>
+                            <li class="hd">
+                                Email:
+                                <a href="infopms2012@gmail.com">infopms2012@gmail.com</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 footer-grid-w3ls" data-aos="zoom-in">
+                    <div class="footer-title">
+                        <h3>Nos Services</h3>
+                   
+
+                    </div>
+                    <div class="footer-list">
+                        <div >
+                            <a href="@Url.Action("Service_jardinage","Accueil")">
+                                Jardinage
+                            </a>
+                        </div>
+                        <div >
+                            <a href="@Url.Action("Service_HSE","Accueil")">
+                               HSE
+                            </a>
+                        </div>
+                       
+                        <div >
+                            <a href="#">
+                                
+                            </a>
+                        </div>
+                        <div >
+                            <a href="@Url.Action("Service_Hebergement","Accueil")">
+                                Hébergement
+                            </a>
+                        </div>
+                      
+                        <div >
+                            <a href="@Url.Action("Service_Restauration","Accueil")">
+                                Restauration
+                            </a>
+                        </div>
+                       
+                        <div >
+                            <a href="@Url.Action("Service_EM","Accueil")">
+                                Entretien&Maintenance
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="@Url.Action("Service_Navette","Accueil")">
+                                Navette
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="@Url.Action("Service_Buvette","Accueil")">
+                                Buvette
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="@Url.Action("Service_Peinture_industrielle","Accueil")">
+                                Peinture Industrielle
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="@Url.Action("Service_Dératisation","Accueil")">
+                                Dératisation
+                            </a>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 footer-grid-w3ls" data-aos="zoom-in">
+                    <div class="footer-title">
+                        <h3>Retrouvez-nous sur :</h3>
+                        @*<a  class="facebook" href="https://www.facebook.com/PMS-2554374017928788/" target="_blank">
+                            <img src="~/Content/Front/images/facebook.png" width="240" height="90" alt="" />
+                        </a>*@
+
+                        <ul>
+                            <li>
+                                <a class="facebook" href="https://www.facebook.com/PMS-2554374017928788/" target="_blank">
+                                    <img src="~/Content/Front/images/fb.png" width="40" height="40" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/premium-multi-services-pms" target="_blank">
+                                    <img src="~/Content/Front/images/linkedin-icon.png" width="40" height="40" alt="" />
+                                </a>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!---->
+    <div class="copyright">
+        <div class="container">
+            <div class="copyrighttop" data-aos="fade-left">
+                <ul>
+                    <li>
+                        <h4>Rejoignez-Nous</h4>
+                    </li>
+                    <li>
+                        <a class="facebook" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="facebook" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="facebook" href="#">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="facebook" href="#">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyrightbottom" data-aos="fade-right">
+                <p>
+                    © 2019 PMS. All Rights Reserved
+                    
+                </p>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- js -->
+    <script src="~/Content/Front/js/jquery-2.2.3.min.js"></script>
+    <!-- //js -->
+    <!-- simpleLightbox -->
+    <script src="~/Content/Front/js/simpleLightbox.js"></script>
+    <script>
+        $('.proj_gallery_grid a').simpleLightbox();
+
+    </script>
+    <!-- //simpleLightbox -->
+    <!-- /js files -->
+    <link href='~/Content/Front/css/aos.css' rel='stylesheet prefetch' type="text/css" media="all" />
+    <link href='~/Content/Front/css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
+    <script src='~/Content/Front/js/aos.js'></script>
+    <script src="~/Content/Front/js/aosindex.js"></script>
+    <!-- //js files -->
+    <!-- flexSlider -->
+    <script defer src="~/Content/Front/js/jquery.flexslider.js"></script>
+    <script>
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+
+    </script>
+
+    <!-- //flexSlider -->
+    <!-- stats -->
+    <script src="~/Content/Front/js/jquery.waypoints.min.js"></script>
+    <script src="~/Content/Front/js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp();
+
+    </script>
+    <!-- //stats -->
+    <!-- start-smoth-scrolling -->
+    <script src="~/Content/Front/js/move-top.js"></script>
+    <script src="~/Content/Front/js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 900);
+            });
+        });
+
+    </script>
+    <!-- start-smoth-scrolling -->
+
+    <script>
+        $(document).ready(function () {
+            /*
+                                    var defaults = {
+                                        containerID: 'toTop', // fading element id
+                                        containerHoverID: 'toTopHover', // fading element hover id
+                                        scrollSpeed: 1200,
+                                        easingType: 'linear'
+                                    };
+                                    */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+
+    </script>
+    <!-- /js -->
+    <script src="~/Content/Front/js/bootstrap.js"></script>
+    <!-- //js -->
+
+
+</body>
+
+
+
+</html>

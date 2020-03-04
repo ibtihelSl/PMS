@@ -1,0 +1,207 @@
+﻿
+@{
+    ViewBag.Title = "SERGAZ";
+    Layout = "~/Views/Shared/accueilFront.cshtml";
+}
+
+<link href="~/Content/Front/css/contact.css" rel='stylesheet' type='text/css' />
+
+<!--//header-->
+<div class="banner-inner">
+</div>
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Accueil")">Accueil</a>
+    </li>
+    <li class="breadcrumb-item active">SERGAZ</li>
+</ol>
+
+  
+<section class="grids_sec_2">
+    <div class="row style-grids_main">
+        <div class="col-md-6 grid_sec_info">
+            <div class="style-grid-2-text_info" data-aos="fade-right">
+                <h3> Société de Service du Gazoduc Transtunisien </h3>
+                <p>SERGAZ est une filiale commune de l’ETAP et de l’ENI, elle assure la conduite technique et l’entretien du
+                  gazoduc transtunisien pour le compte du propriétaire de l’ouvrage à savoir : la SOTUGAT, et ce,
+                  conformément aux normes d’économie et d’efficience technique de Standing International d’une
+                   part, et aux lois et règlement en vigueur en Tunisie, d’autre part.</p>
+                
+                @*<div class="bnr-button">
+                    <button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>*@
+
+            </div>
+        </div>
+        <div class="col-md-6 style-image-SERGAZ2">
+            
+            </div>
+        <div class="col-md-6 style-image-SERGAZ1">
+        </div>
+            <div class="col-md-6 grid_sec_info">
+                <div class="style-grid-2-text_info" data-aos="fade-right">
+                    <h3>
+                        Les sites de SERGAZ :
+
+                    </h3>
+
+                    <p><span class="fas fa-check"></span>&nbsp &nbsp Tunis</p>
+                    <p><span class="fas fa-check"></span>&nbsp &nbsp Haouaria</p>
+                    <p><span class="fas fa-check"></span>&nbsp &nbsp korba</p>
+                    <p><span class="fas fa-check"></span>&nbsp &nbsp Sbikha</p>
+                    <p><span class="fas fa-check"></span>&nbsp &nbsp Sbeitla</p>
+                    <p><span class="fas fa-check"></span>&nbsp &nbsp Feriana</p>
+                </div>
+            </div>
+
+        </div>
+</section>
+<h4 class="tittle">Emplacement des Sites de SERGAZ</h4>
+<div class="row inner-sec-wthree">
+    <div class="contact-map">
+
+       
+
+        <fieldset>
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+            <div id="map" style="width:100%;height:500px"></div>
+            <script>
+
+                function myMap() {
+                    var Feriana = new google.maps.LatLng(34.7709605, 8.2923126);
+                    var Haouaria = new google.maps.LatLng(37.0179395, 11.0502291); 
+                    var Tunis = new google.maps.LatLng(36.8498729, 10.1893902); 
+                    var Sbikha = new google.maps.LatLng(35.9194836, 9.9314904);
+                    var Sbeitla = new google.maps.LatLng(35.2315114, 9.10683); 
+                    var korba = new google.maps.LatLng(36.5758369, 10.8443506);
+
+
+                    var mapCanvas = document.getElementById("map");
+                    var mapOptions = { center: Tunis, zoom: 7 };
+                    var map = new google.maps.Map(mapCanvas, mapOptions);
+
+                    var flightPath = new google.maps.Polyline({
+                        path: [Haouaria, korba, Sbikha, Sbeitla, Feriana],
+                        strokeColor: "Yellow",
+                        strokeOpacity: 0.9,
+                        strokeWeight: 2,
+                        fillColor: "Yellow",
+                        fillOpacity: 0.4
+                    });
+
+                    var marker1 = new google.maps.Marker({
+                        position: Feriana,
+                       // animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+                    var marker2 = new google.maps.Marker({
+                        position: Haouaria,
+                       // animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+                    var marker3 = new google.maps.Marker({
+                        position: Tunis,
+                      //  animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+                    var marker4 = new google.maps.Marker({
+                        position: Sbikha,
+                       // animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+                    var marker5 = new google.maps.Marker({
+                        position: Sbeitla,
+                       // animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+                    var marker6 = new google.maps.Marker({
+                        position: korba,
+                       // animation: google.maps.Animation.BOUNCE //BOUNCE ,DROP , lo , no
+                    });
+
+
+                    //indication de la position
+                    var infowindow1 = new google.maps.InfoWindow({
+                        content: "Feriana"
+                    });
+                    var infowindow2 = new google.maps.InfoWindow({
+                        content: "Haouaria"
+                    });
+                    var infowindow3 = new google.maps.InfoWindow({
+                        content: "Tunis"
+                    });
+                    var infowindow4 = new google.maps.InfoWindow({
+                        content: "Sbikha"
+                    });
+                    var infowindow5 = new google.maps.InfoWindow({
+                        content: "Sbeitla"
+                    });
+                    var infowindow6 = new google.maps.InfoWindow({
+                        content: "korba"
+                    });
+
+                    //open
+                    google.maps.event.addListener(marker1, 'mouseover', function () {
+                        infowindow1.open(map, marker1);
+                    });
+                    google.maps.event.addListener(marker2, 'mouseover', function () {
+                        infowindow2.open(map, marker2);
+                    });
+                    google.maps.event.addListener(marker3, 'mouseover', function () {
+                        infowindow3.open(map, marker3);
+                    });
+                    google.maps.event.addListener(marker4, 'mouseover', function () {
+                        infowindow4.open(map, marker4);
+                    });
+                    google.maps.event.addListener(marker5, 'mouseover', function () {
+                        infowindow5.open(map, marker5);
+                    });
+                    google.maps.event.addListener(marker6, 'mouseover', function () {
+                        infowindow6.open(map, marker6);
+                    });
+
+                    //close
+                    google.maps.event.addListener(marker1, 'mouseout', function () {
+                        infowindow1.close(map, marker1);
+                    });
+                    google.maps.event.addListener(marker2, 'mouseout', function () {
+                        infowindow2.close(map, marker2);
+                    });
+                    google.maps.event.addListener(marker3, 'mouseout', function () {
+                        infowindow3.close(map, marker3);
+                    });
+                    google.maps.event.addListener(marker4, 'mouseout', function () {
+                        infowindow4.close(map, marker4);
+                    });
+                    google.maps.event.addListener(marker5, 'mouseout', function () {
+                        infowindow5.close(map, marker5);
+                    });
+                    google.maps.event.addListener(marker6, 'mouseout', function () {
+                        infowindow6.close(map, marker6);
+                    });
+
+
+
+                    flightPath.setMap(map);
+                    marker1.setMap(map);
+                    marker2.setMap(map);
+                    marker3.setMap(map);
+                    marker4.setMap(map);
+                    marker5.setMap(map);
+                    marker6.setMap(map);
+                    
+                }
+            </script>
+
+            @*<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvHb9kp9zK7OdVQZEmzhHwyIiT7xwHL74&callback=myMap"></script>*@
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvHb9kp9zK7OdVQZEmzhHwyIiT7xwHL74&signed_in=true&libraries=places&callback=myMap">
+
+            </script>
+        </fieldset>
+
+    </div>
+</div>
